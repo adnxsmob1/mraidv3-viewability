@@ -14385,12 +14385,12 @@ module.exports = function(Chart) {
 
 
 function main() {
-    if (isValidEnvironment()) {
+    //if (isValidEnvironment()) {
         checkViewabilityCompliance();
-    }
-    else {
-        fallback();
-    }
+    //}
+    //else {
+    //    fallback();
+    //}
 }
 
 function isMRAIDTagPresent() {
