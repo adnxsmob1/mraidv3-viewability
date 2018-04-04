@@ -14398,9 +14398,9 @@ function isMRAIDTagPresent() {
 }
 
 function injectMRAIDTag() {
-    var script = document.createElement("script");
-    script.src = "mraid.js";
-    document.head.appendChild(script);
+   // var script = document.createElement("script");
+   // script.src = "mraid.js";
+   // document.head.appendChild(script);
 }
 
 function isValidEnvironment() {
