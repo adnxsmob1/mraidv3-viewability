@@ -14468,8 +14468,8 @@ function initMainDiv() {
     var mainDiv = document.createElement("div");
     mainDiv.classList.add("main-div");
     mainDiv.style.position = "relative";
-    mainDiv.style.width = window.innerWidth;
-    mainDiv.style.height = window.innerHeight;
+    mainDiv.style.width = "300px";
+    mainDiv.style.height = "250px";
     mainDiv.style.backgroundColor = "rgba(0,0,255,1)";
     document.body.appendChild(mainDiv);
     return mainDiv;
@@ -14477,8 +14477,8 @@ function initMainDiv() {
 
 function getBlankDiv() {
     var div = document.createElement("div");
-    div.style.width = window.innerWidth;
-    div.style.height = window.innerHeight;
+    div.style.width = "300px";
+    div.style.height = "250px";
     div.style.position = "relative";
     div.style.backgroundColor = "rgba(255,255,255,1)";
     return div;
